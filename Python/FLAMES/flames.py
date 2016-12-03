@@ -17,7 +17,7 @@ name2 = raw_input("Enter your crush's full name: ").upper()
 namelist1 = name1.split();
 namelist2 = name2.split();
 
-#Part where the all the common alphabets arec cancelled.
+#Part where all the common alphabets arec cancelled.
 print "\nStep 1: Cancelling all common letters..."
 def cancel():
 	len1, len2 = reset(namelist1, namelist2);	
@@ -139,7 +139,7 @@ if totLen > 0:
 			print "S"
 			finalFlames = 'S'
 else:
-	print "\nEither you're head over heels in love with yourself or both your names are anagrams of each other... :O"
+	print "\nEither you're head over heels in love with yourself or both your names are anagrams of each other... :-O"
 
 #Final result
 try:
