@@ -17,7 +17,7 @@ name2 = raw_input("Enter your crush's full name: ").upper()
 namelist1 = name1.split();
 namelist2 = name2.split();
 
-#Part where all the common alphabets arec cancelled.
+#Part where all the common alphabets are cancelled.
 print "\nStep 1: Cancelling all common letters..."
 def cancel():
 	len1, len2 = reset(namelist1, namelist2);	
