@@ -13,7 +13,7 @@ def reset(namelistx, namelisty):
 	return len1, len2;
 
 name1 = raw_input("Enter your full name: ").upper()
-name2 = raw_input("Enter your crush's full name: ").upper()
+name2 = raw_input("Enter your crush/lover/friend's full name: ").upper()
 namelist1 = name1.split();
 namelist2 = name2.split();
 
