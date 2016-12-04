@@ -3,6 +3,10 @@ print "Program to find out your 'FLAMES' relationship ;)\n"
 namelist1 = list();
 namelist2 = list();
 len1, len2 = [], [];
+name1 = raw_input("Enter your full name: ").upper()
+name2 = raw_input("Enter your crush/lover/friend's full name: ").upper()
+namelist1 = name1.split();
+namelist2 = name2.split();
 
 def reset(namelistx, namelisty):
 	len1, len2 = [], [];
@@ -11,11 +15,6 @@ def reset(namelistx, namelisty):
 	for name in namelisty:
 		len2.append(len(name));
 	return len1, len2;
-
-name1 = raw_input("Enter your full name: ").upper()
-name2 = raw_input("Enter your crush/lover/friend's full name: ").upper()
-namelist1 = name1.split();
-namelist2 = name2.split();
 
 #Part where all the common alphabets are cancelled.
 print "\nStep 1: Cancelling all common letters..."
