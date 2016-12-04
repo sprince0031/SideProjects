@@ -67,7 +67,7 @@ totLen = len(finalName)
 
 #Part where the flame is determined.
 if totLen > 0:
-	print "\nThe remaining string is " + finalName + " and the it's length is",str(totLen) + '.'
+	print "\nThe remaining string is " + finalName + " and it's length is",str(totLen) + '.'
 	print "\nStep 2: Cancelling letters in 'FLAMES'..."
 	def Flames(totLenx):
 		flames = "FLAMES"
