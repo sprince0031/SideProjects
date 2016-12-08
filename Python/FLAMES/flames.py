@@ -1,3 +1,6 @@
+from platform import python_version
+print("Python", python_version())
+
 print("Program to find out your 'FLAMES' relationship ;)\n")
 
 namelist1 = list();
